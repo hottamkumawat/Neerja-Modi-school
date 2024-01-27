@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* HEADER */
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(36, 54, 88);
+    display: flex;
+    justify-content: center;
+}
+
+#header-center-part {
+    width: 82%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-center-part-left h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    word-spacing: 5px;
+}
+
+#header-center-part-right p {
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#header-center-part-right p:hover {
+    color: rgb(148, 29, 29);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* NAVIGATION BAR */
+#nav-bar {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(148, 29, 29);
+    padding: 0 9%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 10px gray;
+}
+
+#nav-bar ul {
+    display: flex;
+}
+
+#nav-bar ul li {
+    list-style: none;
+}
+
+#nav-bar ul li:hover a {
+    color: gray;
+    transition: 0.3s;
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 35px;
+}
+
+#about-us-drop-down {
+    position: absolute;
+    top: 100px;
+    left: 190px;
+    background-color: rgb(148, 29, 29);
+    padding: 5px 15px;
+    display: none;
+}
+
+#about-us-drop-down ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-us-drop-down ul li {
+    list-style: none;
+    color: white;
+    line-height: 35px;
+    font-size: 13px;
+}
+
+#about-us-drop-down ul li:hover {
+    color: gray;
+}
+
+#nav-bar-about-us:hover #about-us-drop-down {
+    display: block;
+}
+
+#academics-drop-down {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    background-color: rgb(148, 29, 29);
+    padding: 5px 15px;
+    display: none;
+}
+
+#academics-drop-down ul li {
+    list-style: none;
+    color: white;
+    line-height: 35px;
+    font-size: 13px;
+}
+
+#academics-drop-down ul li:hover {
+    color: gray;
+}
+
+#academics-drop-down ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-bar-academics:hover #academics-drop-down {
+    display: block;
+}
+
+#activities-drop-down {
+    position: absolute;
+    top: 100px;
+    left: 525px;
+    background-color: rgb(148, 29, 29);
+    padding: 5px 15px;
+    display: none;
+}
+
+#activities-drop-down ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#activities-drop-down ul li {
+    list-style: none;
+    color: white;
+    line-height: 35px;
+    font-size: 13px;
+}
+
+#activities-drop-down ul li:hover {
+    color: gray;
+}
+
+#nav-bar-activities:hover #activities-drop-down {
+    display: block;
+}
+
+/*---------------- ADMISSION CENTER SECTION --------------------*/
+#admission-center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#admission-center-top{
+    width: 82%;
+    margin-top: 35px;
+}
+
+.heading-para{
+    font-size: 35px;
+}
+
+#admission-center-top hr{
+    width: 100%;
+    opacity: 80%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.h-secondary-admission{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#admission-center-top span{
+    color: rgb(148, 29, 29);
+    cursor: pointer;
+}
+
+#admission-center-top span:hover{
+    text-decoration: underline;
+}
+
+#admission-center-bottom{
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+#admission-center-bottom-left span{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#admission-center-bottom-left span:hover{
+    text-decoration: underline;
+    color: rgb(148, 29, 29);
+}
+
+#admission-center-bottom-left p{
+    margin-bottom: 10px;
+}
+
+#admission-center-bottom-right form{
+    margin-top: 20px;
+}
+
+#admission-center-bottom-right label{
+    font-size: 15px;
+}
+
+.forms-long-input{
+    height: 35px;
+    width: 450px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#admission-center-bottom-right form select{
+    height: 35px;
+    width: 450px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#name{
+    margin-left: 30px;
+}
+
+#phone-number{
+    margin-left: 18px;
+}
+
+#email{
+    margin-left: 31px;
+}
+
+#campus{
+    margin-left: 12px;
+}
+
+#admission-sought{
+    margin-left: 11px;
+}
+
+#admission-center-bottom-right img{
+    margin-top: 35px;
+}
+
+#admission-center-bottom-right img~p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#checkbox{
+    height: 10px;
+    margin-right: 5px;
+}
+
+.submit-btn{
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(36, 54, 88);
+    color: white;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+/*----------------------- FOOTER SECTION -------------------*/
+#footer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(194, 194, 194);
+    margin-top: 35px;
+}
+
+#footer-section-top {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin-top: 35px;
+}
+
+#footer-section-top-left {
+    display: flex;
+}
+
+.h-secondary {
+    color: rgb(36, 54, 88);
+}
+
+#footer-section-top-left ul {
+    margin-right: 50px;
+}
+
+#footer-section-top-left ul li {
+    list-style: none;
+}
+
+#footer-section-top-left ul li a {
+    font-size: 14px;
+    color: rgb(36, 54, 88);
+    text-decoration: none;
+}
+
+#footer-section-top-left ul li a:hover {
+    color: rgb(148, 29, 29);
+    text-decoration: underline;
+}
+
+#footer-section-top-right-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-section-top-right-top img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+#footer-section-top-right-bottom {
+    margin-top: 30px;
+}
+
+#footer-section-top-right-bottom .fa-brands {
+    font-size: 35px;
+    color: rgb(36, 54, 88);
+}
+
+#footer-section-top-right-bottom .fa-brands:hover {
+    color: rgb(148, 29, 29);
+    cursor: pointer;
+}
+
+#footer-section-bottom {
+    width: 82%;
+    margin-top: 10px;
+}
+
+#footer-section-bottom span {
+    color: rgb(148, 29, 29);
+
+}
+
+#footer-section-bottom span:hover {
+    color: rgb(36, 54, 88);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#footer-section-bottom-most {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#footer-section-bottom-most p {
+    font-size: 14px;
+    padding-left: 9%;
+}
